@@ -1,8 +1,8 @@
 #include <iostream>
 
-#include <QtWidgets/QApplication>
-#include <QtCore/QObject>
-//#include "TcpServer.h"
+#include <QApplication>
+#include <QObject>
+#include "TcpServer.h"
 
 using namespace std;
 
@@ -12,5 +12,5 @@ int main(int argc, char *argv[])
     QString test = "Hello";
     QObject test2;
     int i = 0;
-//    TcpServer server;
+    TcpServer server;
 }

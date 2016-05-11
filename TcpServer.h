@@ -1,8 +1,8 @@
 #ifndef TCPSERVER_H
 #define TCPSERVER_H
 
-#include <QtCore/QObject>
-#include <QtNetwork/QTcpServer>
+#include <QObject>
+#include <QTcpServer>
 #include "opencv2/videoio.hpp"
 
 using namespace cv;

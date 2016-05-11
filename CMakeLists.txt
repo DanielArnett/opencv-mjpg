@@ -31,6 +31,5 @@ target_link_libraries(helloworld
     Qt5::Core
     Qt5::Network
     ${OpenCV_LIBS}
-    ${PROJECT_SOURCE_DIR}/TcpServer.cpp
-    ${PROJECT_SOURCE_DIR}/TcpServer.h
+    ${PROJECT_SOURCE_DIR}/TcpServer.cpp ${PROJECT_SOURCE_DIR}/TcpServer.h
     )
